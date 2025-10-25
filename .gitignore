@@ -56,7 +56,19 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.local
 .env.*.local
+.env.test
+.env.production
+.env.*.secret
 
 # next.js build output
 .next
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+dist/
