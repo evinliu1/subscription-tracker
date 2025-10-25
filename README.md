@@ -203,6 +203,3 @@ Short summary statement for a recruiter
 
 ## Contributing
 - Open issues and PRs welcome. Keep changes small and focused.
-
-## License
-- MIT (adjust as needed)
