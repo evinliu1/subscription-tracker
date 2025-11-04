@@ -7,8 +7,10 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html', 'lcov'],
-      reportsDirectory: './coverage'
+      reportsDirectory: './coverage',
+      exclude: ['node_modules/**', 'test/**']
     },
-    include: ['test/**/*.test.js']
+    include: ['test/**/*.test.js'],
+    globals: true
   }
 });
