@@ -1,0 +1,11 @@
+process.env.NODE_ENV = 'test';
+process.env.PORT = '3001';
+process.env.DB_URI = 'mongodb://localhost:27017/test';
+process.env.JWT_SECRET = 'test-secret';
+process.env.JWT_EXPIRES_IN = '1h';
+process.env.ARCJET_KEY = 'arcjet-test-key';
+process.env.QSTASH_TOKEN = 'qstash-test-token';
+process.env.QSTASH_URL = 'https://qstash.test';
+process.env.SERVER_URL = 'http://localhost:3001';
+process.env.EMAIL_USER = 'noreply@example.com';
+process.env.EMAIL_PASSWORD = 'pass';

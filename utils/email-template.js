@@ -5,8 +5,6 @@ export const generateEmailTemplate = ({
     planName,
     price,
     paymentMethod,
-    accountSettingsLink,
-    supportLink,
     daysLeft,
   }) => `
   <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 0; background-color: #f4f7fa;">
