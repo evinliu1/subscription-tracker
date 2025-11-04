@@ -10,7 +10,7 @@ export const signUp = async (req, res, next) => {
 
     try {
         // Attempt to create a new User
-        const { name, email } = req.body;
+        const { name, email, password } = req.body;
 
         // Check if a user already exists before creation
         const existingUser = await User.findOne({ email });
